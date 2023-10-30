@@ -1,6 +1,7 @@
 # 2023solver-showcase
 
 - This repository contains all solvers submitted for [CoRe Challenge 2023](https://core-challenge.github.io/2023/).
+- For detail, please see [the submission repository][https://github.com/core-challenge/2023solver-submission/tree/main]. 
 
 ## Build
 
