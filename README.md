@@ -5,9 +5,9 @@
 
 ## Build
 
-- `[container/]$ docker build -f Dockerfile -t solver-name .` will build each solver docker image.
+- `$ docker build -f Dockerfile -t solver-name .` will build each solver docker image.
 
 ## Run  
 
-- Using the docker image, `docker run --rm -t -v /ABSOLUTEPATH/2023solver-submission/container/test-instances:/test solver-name /test/hc-toyyes-01.col /test/hc-toyyes-01_01.dat` will print a result.
+- Using the docker image, `$ docker run --rm -t -v /ABSOLUTEPATH/2023solver-submission/container/test-instances:/test solver-name /test/hc-toyyes-01.col /test/hc-toyyes-01_01.dat` will print a result.
     - Note: ABSOLUTEPATH must be the absolute path where the cloned repository downloaded.
