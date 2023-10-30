@@ -1,0 +1,15 @@
+### Note: Please use SIGINT to stop our solver.
+# existent1 is a single-engine solver.
+existent1,--existent,COLFILE,DATFILE
+# existent2 is a sequential portfolio solver.
+existent2,--existent,--na,COLFILE,DATFILE
+# existent3 is a parallel portfolio solver.
+existent3,--existent,--na,-t4,COLFILE,DATFILE
+# shortest1 is a single-engine solver.
+shortest1,--shortest,COLFILE,DATFILE
+# shortest2 is a parallel portfolio solver.
+shortest2,--shortest,-t4,COLFILE,DATFILE
+# longest1 is a single-engine solver.
+longest1,--longest,COLFILE,DATFILE
+# longest2 is a parallel portfolio solver.
+longest2,--longest,-t4,COLFILE,DATFILE
